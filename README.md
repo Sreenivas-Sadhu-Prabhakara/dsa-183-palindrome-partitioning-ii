@@ -12,6 +12,13 @@ Layer one: `isPal[i][j]` by interval DP — a span is a palindrome when its ends
 
 **Complexity:** O(n²) time, O(n²) space for the table.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
